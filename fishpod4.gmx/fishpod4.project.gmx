@@ -35,6 +35,7 @@
     <sprite>sprites\spr_run</sprite>
     <sprite>sprites\spr_jump</sprite>
     <sprite>sprites\spr_falling</sprite>
+    <sprite>sprites\spr_duck</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -73,7 +74,8 @@
     <room>rooms\room5</room>
     <room>rooms\room3</room>
   </rooms>
-  <constants number="2">
+  <constants number="3">
+    <constant name="JUMP_COUNT">0</constant>
     <constant name="FACE_RIGHT">2</constant>
     <constant name="FACE_LEFT">1</constant>
   </constants>
