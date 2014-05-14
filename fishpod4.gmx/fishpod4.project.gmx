@@ -43,6 +43,12 @@
     <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_particle.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\font_time</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_rock_middle</object>
     <object>objects\obj_slug</object>
@@ -67,6 +73,8 @@
     <object>objects\obj_flying</object>
     <object>objects\obj_left</object>
     <object>objects\obj_right</object>
+    <object>objects\obj_timmer</object>
+    <object>objects\object22</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room4</room>
