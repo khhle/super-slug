@@ -45,23 +45,22 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_rock_middle</object>
-    <object>objects\obj_pod</object>
+    <object>objects\obj_slug</object>
     <object>objects\obj_pansy</object>
     <object>objects\obj_lava_middle</object>
     <object>objects\obj_gold</object>
     <objects name="Private">
-      <object>objects\obj_pod_standing</object>
-      <object>objects\obj_pod_walking</object>
-      <object>objects\obj_pod_jumping</object>
-      <object>objects\obj_pod_falling</object>
-      <object>objects\obj_pod_dying</object>
+      <object>objects\obj_slug_running</object>
+      <object>objects\obj_slug_jumping</object>
+      <object>objects\obj_slug_falling</object>
+      <object>objects\obj_slug_dying</object>
       <object>objects\obj_rock_end</object>
       <object>objects\obj_rock_begin</object>
       <object>objects\obj_platform</object>
       <object>objects\obj_hazard</object>
       <object>objects\obj_lava_begin</object>
       <object>objects\obj_lava_end</object>
-      <object>objects\obj_pod_dodge</object>
+      <object>objects\obj_slug_duck</object>
     </objects>
     <object>objects\ground</object>
     <object>objects\obj_camera</object>
