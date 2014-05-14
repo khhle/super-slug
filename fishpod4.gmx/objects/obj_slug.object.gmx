@@ -123,7 +123,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_slug_dying</object>
+            <object>obj_slug_dying_fall</object>
           </argument>
           <argument>
             <kind>4</kind>
@@ -283,7 +283,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_slug_dying</object>
+            <object>obj_slug_dying_fall</object>
           </argument>
           <argument>
             <kind>4</kind>
