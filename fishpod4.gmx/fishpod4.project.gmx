@@ -37,6 +37,9 @@
     <sprite>sprites\spr_falling</sprite>
     <sprite>sprites\spr_duck</sprite>
     <sprite>sprites\spr_lock</sprite>
+    <sprite>sprites\spr_dying_hit</sprite>
+    <sprite>sprites\spr_dying_fall</sprite>
+    <sprite>sprites\spr_front</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -54,6 +57,7 @@
   <objects name="objects">
     <object>objects\obj_rock_middle</object>
     <object>objects\obj_slug</object>
+    <object>objects\obj_slug_front</object>
     <object>objects\obj_pansy</object>
     <object>objects\obj_lava_middle</object>
     <object>objects\obj_gold</object>
@@ -81,10 +85,10 @@
     <object>objects\obj_lock</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_map</room>
     <room>rooms\room4</room>
     <room>rooms\room5</room>
     <room>rooms\room3</room>
-    <room>rooms\room_map</room>
   </rooms>
   <constants number="3">
     <constant name="JUMP_COUNT">0</constant>
