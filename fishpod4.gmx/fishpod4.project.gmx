@@ -36,11 +36,13 @@
     <sprite>sprites\spr_jump</sprite>
     <sprite>sprites\spr_falling</sprite>
     <sprite>sprites\spr_duck</sprite>
+    <sprite>sprites\spr_lock</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
     <background>background\background1</background>
     <background>background\background2</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -76,11 +78,13 @@
     <object>objects\obj_right</object>
     <object>objects\obj_timmer</object>
     <object>objects\object22</object>
+    <object>objects\obj_lock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room4</room>
     <room>rooms\room5</room>
     <room>rooms\room3</room>
+    <room>rooms\room_map</room>
   </rooms>
   <constants number="3">
     <constant name="JUMP_COUNT">0</constant>
