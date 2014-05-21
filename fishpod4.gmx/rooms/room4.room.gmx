@@ -51,7 +51,7 @@
   </views>
   <instances>
     <instance objName="ground" x="0" y="256" name="inst_6F10A15B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_camera" x="208" y="0" name="inst_18463D85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_camera" x="208" y="144" name="inst_18463D85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground" x="464" y="256" name="inst_636BCDFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground" x="928" y="256" name="inst_4C430260" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_flying" x="352" y="208" name="inst_EA705FC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -108,8 +108,8 @@
     <instance objName="obj_gold" x="4816" y="176" name="inst_0EB5AE34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_right" x="4896" y="192" name="inst_26DD69AA" locked="0" code="" scaleX="0.738461554050446" scaleY="0.676767647266388" colour="4294967295" rotation="0"/>
     <instance objName="obj_timmer" x="32" y="32" name="inst_B004FAA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object22" x="80" y="32" name="inst_07CF1057" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slug" x="48" y="176" name="inst_4B40A540" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hp" x="160" y="64" name="inst_6F89A873" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
