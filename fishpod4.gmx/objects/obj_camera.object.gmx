@@ -26,32 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>globalvar slugspeed;
-slugspeed = 4;
+slugspeed = 5;
+
+global.isWin = 0;
+obj_camera.x = obj_slug.x+200;
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>000001000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>global.slugspeed</string>
           </argument>
         </arguments>
       </action>
@@ -59,13 +38,13 @@ slugspeed = 4;
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -73,11 +52,10 @@ slugspeed = 4;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>000001000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>global.slugspeed</string>
+            <string>if(global.isWin == 0)
+obj_camera.x = obj_slug.x+200;
+
+</string>
           </argument>
         </arguments>
       </action>

@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>global.hp = 4
+
+obj_hp.x = obj_slug.x+100;
 </string>
           </argument>
         </arguments>
@@ -124,6 +126,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>global.isSuper</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>global.slugspeed</string>
           </argument>
           <argument>
@@ -134,6 +160,28 @@
       </action>
     </event>
     <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(global.isWin == 0)
+obj_hp.x = obj_slug.x+100;
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -268,6 +316,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>global.isSuper</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>global.slugspeed</string>
           </argument>
           <argument>
@@ -292,7 +364,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 20;
+            <string>alarm[0] = 50;
 </string>
           </argument>
         </arguments>
