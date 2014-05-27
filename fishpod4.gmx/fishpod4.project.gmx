@@ -60,7 +60,6 @@
   <objects name="objects">
     <object>objects\obj_rock_middle</object>
     <object>objects\obj_slug</object>
-    <object>objects\obj_slug_front</object>
     <object>objects\obj_pansy</object>
     <object>objects\obj_lava_middle</object>
     <object>objects\obj_gold</object>
@@ -85,14 +84,18 @@
     <object>objects\obj_right</object>
     <object>objects\obj_timmer</object>
     <object>objects\object22</object>
-    <object>objects\obj_lock</object>
     <object>objects\obj_hp</object>
     <object>objects\obj_score_panel</object>
     <object>objects\obj_1</object>
+    <objects name="Room">
+      <object>objects\obj_lock</object>
+      <object>objects\obj_slug_front</object>
+      <object>objects\obj_map_controller</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room4</room>
     <room>rooms\room_map</room>
+    <room>rooms\room4</room>
     <room>rooms\room5</room>
     <room>rooms\room3</room>
   </rooms>
