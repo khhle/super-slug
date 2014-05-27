@@ -47,6 +47,7 @@
     <sprite>sprites\sprite32</sprite>
     <sprite>sprites\sprite33</sprite>
     <sprite>sprites\sprite34</sprite>
+    <sprite>sprites\spr_clear_bar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -100,6 +101,7 @@
     <object>objects\obj_collision_detect_2</object>
     <object>objects\obj_bug_check</object>
     <object>objects\obj_2</object>
+    <object>objects\obj_clear_bar</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room6</room>
