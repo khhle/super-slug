@@ -60,7 +60,8 @@
     <background>background\bgd_cave</background>
     <background>background\background1</background>
     <background>background\background2</background>
-    <background>background\background3</background>
+    <background>background\background2old</background>
+    <background>background\backgroundmap</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
