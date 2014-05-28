@@ -29,6 +29,7 @@
     <sprite>sprites\spr_rock_end</sprite>
     <sprite>sprites\spr_rock_middle</sprite>
     <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\sprite17</sprite>
     <sprite>sprites\rock</sprite>
     <sprite>sprites\sprite19</sprite>
     <sprite>sprites\sprite20</sprite>
@@ -43,6 +44,12 @@
     <sprite>sprites\sprite28</sprite>
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\sprite30</sprite>
+    <sprite>sprites\sprite31</sprite>
+    <sprite>sprites\sprite32</sprite>
+    <sprite>sprites\sprite33</sprite>
+    <sprite>sprites\sprite34</sprite>
+    <sprite>sprites\spr_clear_bar</sprite>
+    <sprite>sprites\spr_unlock</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -87,17 +94,40 @@
     <object>objects\obj_hp</object>
     <object>objects\obj_score_panel</object>
     <object>objects\obj_1</object>
-    <objects name="Room">
-      <object>objects\obj_lock</object>
+    <object>objects\obj_2</object>
+    <object>objects\object29</object>
+    <object>objects\object31</object>
+    <object>objects\object30</object>
+    <object>objects\obj_clear_bar</object>
+    <object>objects\obj_collision_detect_2</object>
+    <object>objects\obj_collision_dectect</object>
+    <object>objects\obj_bug_check</object>
+    <objects name="Map">
+      <object>objects\obj_lock_1</object>
+      <object>objects\obj_lock_2</object>
+      <object>objects\obj_lock_3</object>
+      <object>objects\obj_lock_4</object>
+      <object>objects\obj_lock_5</object>
+      <object>objects\obj_lock_6</object>
       <object>objects\obj_slug_front</object>
       <object>objects\obj_map_controller</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_map</room>
+    <room>rooms\room1</room>
+    <room>rooms\room2</room>
+    <room>rooms\room3</room>
     <room>rooms\room4</room>
     <room>rooms\room5</room>
-    <room>rooms\room3</room>
+    <room>rooms\room6</room>
+    <room>rooms\room7</room>
+    <room>rooms\room8</room>
+    <room>rooms\room9</room>
+    <room>rooms\room8old</room>
+    <room>rooms\room4old</room>
+    <room>rooms\room7old</room>
+    <room>rooms\room3old</room>
   </rooms>
   <constants number="3">
     <constant name="JUMP_COUNT">0</constant>
