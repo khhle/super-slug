@@ -54,6 +54,7 @@
     <sprite>sprites\spr_unlock</sprite>
     <sprite>sprites\spr_title</sprite>
     <sprite>sprites\sprite40</sprite>
+    <sprite>sprites\sprite42</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>

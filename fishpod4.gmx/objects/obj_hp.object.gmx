@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>global.hp = 4
 
-obj_hp.x = obj_slug.x+100;
+obj_hp.x = obj_timmer.x-100;
 </string>
           </argument>
         </arguments>
@@ -125,6 +125,30 @@ obj_hp.x = obj_slug.x+100;
           <argument>
             <kind>1</kind>
             <string>global.isSuperText</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.isStop2</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -404,8 +428,8 @@ global.isInit = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.isWin == 0)
-obj_hp.x = obj_slug.x+100;
+            <string>if(global.isWin == 0 )
+obj_hp.x = obj_timmer.x-100;
 </string>
           </argument>
         </arguments>
