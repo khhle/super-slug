@@ -56,6 +56,7 @@
     <sprite>sprites\sprite40</sprite>
     <sprite>sprites\sprite42</sprite>
     <sprite>sprites\sprite43</sprite>
+    <sprite>sprites\spr_heart</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -83,6 +84,7 @@
       <object>objects\obj_slug_falling</object>
       <object>objects\obj_slug_dying_fall</object>
       <object>objects\obj_slug_dying_hit</object>
+      <object>objects\object52</object>
       <object>objects\obj_rock_end</object>
       <object>objects\obj_rock_begin</object>
       <object>objects\obj_platform</object>
@@ -111,6 +113,7 @@
     <object>objects\obj_collision_detect_2</object>
     <object>objects\obj_collision_dectect</object>
     <object>objects\obj_bug_check</object>
+    <object>objects\object51</object>
     <objects name="Map">
       <object>objects\obj_lock_1</object>
       <object>objects\obj_lock_2</object>
