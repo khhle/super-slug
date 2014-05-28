@@ -122,7 +122,7 @@
       <object>objects\obj_slug_front</object>
       <object>objects\obj_map_controller</object>
     </objects>
-    <object>objects\ojb_title</object>
+    <object>objects\obj_title</object>
     <object>objects\obj_super_text</object>
   </objects>
   <rooms name="rooms">
