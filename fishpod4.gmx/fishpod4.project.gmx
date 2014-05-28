@@ -43,6 +43,7 @@
     <sprite>sprites\sprite28</sprite>
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\sprite30</sprite>
+<<<<<<< HEAD
     <sprite>sprites\sprite31</sprite>
     <sprite>sprites\sprite32</sprite>
     <sprite>sprites\sprite33</sprite>
@@ -50,6 +51,8 @@
     <sprite>sprites\spr_clear_bar</sprite>
     <sprite>sprites\sprite36</sprite>
     <sprite>sprites\sprite37</sprite>
+=======
+>>>>>>> 3f174e844b64865202d52fb5da2a869d4cb52d0f
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -67,17 +70,13 @@
   <objects name="objects">
     <object>objects\obj_rock_middle</object>
     <object>objects\obj_slug</object>
-    <object>objects\obj_slug_front</object>
     <object>objects\obj_pansy</object>
     <object>objects\obj_lava_middle</object>
     <object>objects\obj_gold</object>
     <objects name="Private">
       <object>objects\obj_slug_running</object>
-      <object>objects\object29</object>
       <object>objects\obj_slug_jumping</object>
-      <object>objects\object30</object>
       <object>objects\obj_slug_falling</object>
-      <object>objects\object31</object>
       <object>objects\obj_slug_dying_fall</object>
       <object>objects\obj_slug_dying_hit</object>
       <object>objects\obj_rock_end</object>
@@ -95,10 +94,10 @@
     <object>objects\obj_right</object>
     <object>objects\obj_timmer</object>
     <object>objects\object22</object>
-    <object>objects\obj_lock</object>
     <object>objects\obj_hp</object>
     <object>objects\obj_score_panel</object>
     <object>objects\obj_1</object>
+<<<<<<< HEAD
     <object>objects\obj_collision_dectect</object>
     <object>objects\obj_collision_detect_2</object>
     <object>objects\obj_bug_check</object>
@@ -106,11 +105,17 @@
     <object>objects\obj_clear_bar</object>
     <object>objects\obj_super</object>
     <object>objects\obj_stone</object>
+=======
+    <objects name="Room">
+      <object>objects\obj_lock</object>
+      <object>objects\obj_slug_front</object>
+      <object>objects\obj_map_controller</object>
+    </objects>
+>>>>>>> 3f174e844b64865202d52fb5da2a869d4cb52d0f
   </objects>
   <rooms name="rooms">
-    <room>rooms\room6</room>
-    <room>rooms\room4</room>
     <room>rooms\room_map</room>
+    <room>rooms\room4</room>
     <room>rooms\room5</room>
     <room>rooms\room3</room>
   </rooms>
