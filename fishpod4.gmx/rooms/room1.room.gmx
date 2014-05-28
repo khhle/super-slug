@@ -74,7 +74,7 @@
     <instance objName="obj_gold" x="1984" y="160" name="inst_5A83760F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gold" x="2016" y="160" name="inst_94B527B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gold" x="2048" y="160" name="inst_E925C540" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_clear_bar" x="-128" y="15" name="inst_1BAD8843" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clear_bar" x="-64" y="0" name="inst_47AB092B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slug" x="32" y="160" name="inst_95EB8E4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hp" x="64" y="32" name="inst_0407C149" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
