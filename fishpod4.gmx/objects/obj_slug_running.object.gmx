@@ -350,7 +350,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>show_debug_message("running");
+            <string>//show_debug_message("running");
 </string>
           </argument>
         </arguments>
@@ -683,6 +683,46 @@
     <event eventtype="5" enumb="40">
       <action>
         <libid>1</libid>
+        <id>532</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_effect</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>10</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
+          </argument>
+          <argument>
+            <kind>13</kind>
+            <string>8454143</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>612</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -737,6 +777,46 @@
     <event eventtype="9" enumb="38">
       <action>
         <libid>1</libid>
+        <id>532</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_effect</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>4</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
+          </argument>
+          <argument>
+            <kind>13</kind>
+            <string>8454143</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
@@ -756,34 +836,6 @@
           <argument>
             <kind>0</kind>
             <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>612</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>jump</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>2</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>1</string>
           </argument>
         </arguments>
       </action>

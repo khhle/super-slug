@@ -57,6 +57,9 @@
     <sprite>sprites\sprite42</sprite>
     <sprite>sprites\sprite43</sprite>
     <sprite>sprites\spr_heart</sprite>
+    <sprite>sprites\sprite45</sprite>
+    <sprite>sprites\sprite46</sprite>
+    <sprite>sprites\sprite47</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -64,6 +67,7 @@
     <background>background\background2</background>
     <background>background\background2old</background>
     <background>background\backgroundmap</background>
+    <background>background\background5</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -130,6 +134,10 @@
     <object>objects\obj_title</object>
     <object>objects\obj_super_text</object>
     <object>objects\obj_stone</object>
+    <object>objects\object53</object>
+    <object>objects\obj_spike</object>
+    <object>objects\obj_cloud</object>
+    <object>objects\obj_rain</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_title</room>
