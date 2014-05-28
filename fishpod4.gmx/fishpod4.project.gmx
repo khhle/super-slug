@@ -44,10 +44,12 @@
     <sprite>sprites\sprite28</sprite>
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\sprite30</sprite>
-    <sprite>sprites\sprite31</sprite>
-    <sprite>sprites\sprite32</sprite>
-    <sprite>sprites\sprite33</sprite>
-    <sprite>sprites\sprite34</sprite>
+    <sprite>sprites\spr_vet_bar</sprite>
+    <sprite>sprites\spr_hor_bar</sprite>
+    <sprite>sprites\spr_A</sprite>
+    <sprite>sprites\spr_B</sprite>
+    <sprite>sprites\spr_C</sprite>
+    <sprite>sprites\spr_F</sprite>
     <sprite>sprites\spr_clear_bar</sprite>
     <sprite>sprites\spr_unlock</sprite>
   </sprites>
@@ -93,8 +95,10 @@
     <object>objects\object22</object>
     <object>objects\obj_hp</object>
     <object>objects\obj_score_panel</object>
-    <object>objects\obj_1</object>
-    <object>objects\obj_2</object>
+    <object>objects\obj_A</object>
+    <object>objects\obj_B</object>
+    <object>objects\obj_C</object>
+    <object>objects\obj_F</object>
     <object>objects\object29</object>
     <object>objects\object31</object>
     <object>objects\object30</object>
@@ -109,6 +113,9 @@
       <object>objects\obj_lock_4</object>
       <object>objects\obj_lock_5</object>
       <object>objects\obj_lock_6</object>
+      <object>objects\obj_lock_7</object>
+      <object>objects\obj_lock_8</object>
+      <object>objects\obj_lock_9</object>
       <object>objects\obj_slug_front</object>
       <object>objects\obj_map_controller</object>
     </objects>

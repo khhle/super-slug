@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>// 0 = lock; 1 = unlock; 2 = F; 3 = C; 4 = B; 5 = A
-global.lock_5 = 0;
+global.lock_8 = 0;
 
-switch (global.lock_5){
+switch (global.lock_8){
    case 0: sprite_index = spr_lock; break;
    case 1: sprite_index = spr_unlock; break;
    case 2: sprite_index = spr_F; image_xscale = 0.5; image_yscale = 0.5; break;
@@ -60,7 +60,7 @@ switch (global.lock_5){
             <kind>1</kind>
             <string>// 0 = lock; 1 = unlock; 2 = F; 3 = C; 4 = B; 5 = A
 
-switch (global.lock_5){
+switch (global.lock_8){
    case 0: sprite_index = spr_lock; break;
    case 1: sprite_index = spr_unlock; break;
    case 2: sprite_index = spr_F; image_xscale = 0.5; image_yscale = 0.5; break;
@@ -90,7 +90,7 @@ switch (global.lock_5){
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>global.lock_5</string>
+            <string>global.lock_8</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -132,7 +132,7 @@ switch (global.lock_5){
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>room5</room>
+            <room>room8</room>
           </argument>
         </arguments>
       </action>
@@ -156,7 +156,7 @@ switch (global.lock_5){
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>8</string>
           </argument>
         </arguments>
       </action>

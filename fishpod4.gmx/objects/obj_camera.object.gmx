@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>globalvar slugspeed;
 slugspeed = 5;
-
+global.score = 0;
 global.isWin = 0;
 obj_camera.x = obj_slug.x+200;
 </string>
