@@ -53,6 +53,7 @@
     <sprite>sprites\spr_clear_bar</sprite>
     <sprite>sprites\spr_unlock</sprite>
     <sprite>sprites\spr_title</sprite>
+    <sprite>sprites\sprite40</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -121,6 +122,7 @@
       <object>objects\obj_map_controller</object>
     </objects>
     <object>objects\ojb_title</object>
+    <object>objects\obj_super_text</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_title</room>
