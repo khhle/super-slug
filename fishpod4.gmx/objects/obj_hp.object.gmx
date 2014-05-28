@@ -659,7 +659,7 @@ obj_hp.x = obj_slug.x+100;
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>ground</object>
+            <object>obj_super_text</object>
           </argument>
           <argument>
             <kind>0</kind>
