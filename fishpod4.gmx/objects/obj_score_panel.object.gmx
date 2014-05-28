@@ -19,7 +19,7 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_score_panel</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -32,22 +32,23 @@ obj_score_panel.x = room_width - 250;
 obj_score_panel.y = 150;
 
 testscore = global.score; //- global.time;
-global.score = 0;
+
 global.slugspeed = 0;
 switch(global.current_room){
     case 1:
-        if(testscore &gt; 200) { instance_create(obj_score_panel.x,obj_score_panel.x,obj_A); global.lock_1 = 5; global.lock_2 = 1;}
-        else if(testscore &gt; 180){ instance_create(obj_score_panel.x,obj_score_panel.x,obj_B); global.lock_1 = 4; global.lock_2 = 1;}
-        else if(testscore &gt; 120){ instance_create(obj_score_panel.x,obj_score_panel.x,obj_C); global.lock_1 = 3; global.lock_2 = 1;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.x,obj_F); global.lock_1 = 2;}
-    case 2: global.lock_2 = 1;
-    case 3: global.lock_3 = 1;
-    case 4: global.lock_4 = 1;
-    case 5: global.lock_5 = 1;
-    case 6: global.lock_6 = 1;
-    case 7: global.lock_7 = 1;
-    case 8: global.lock_8 = 1;
-    case 9: global.lock_9 = 1;
+        if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_1 = 5; global.lock_2 = 1;}
+        else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_1 = 4; global.lock_2 = 1;}
+        else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_1 = 3; global.lock_2 = 1;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_1 = 2;}
+        break;
+    case 2: global.lock_2 = 1; break;
+    case 3: global.lock_3 = 1; break;
+    case 4: global.lock_4 = 1; break;
+    case 5: global.lock_5 = 1; break;
+    case 6: global.lock_6 = 1; break;
+    case 7: global.lock_7 = 1; break;
+    case 8: global.lock_8 = 1; break;
+    case 9: global.lock_9 = 1; break;
 }
 </string>
           </argument>
@@ -151,8 +152,8 @@ switch(global.current_room){
             <kind>1</kind>
             <string>draw_set_font(font_time) //make sure you create a font
 draw_set_color(c_white) //color of the timer font
-draw_text(x - 100,y - 75, "Your score");
-draw_text(x - 10,y - 50, string(global.score));
+draw_text(x - 100,y - 95, "Your score");
+draw_text(x - 25,y - 65, string(global.score));
 </string>
           </argument>
         </arguments>

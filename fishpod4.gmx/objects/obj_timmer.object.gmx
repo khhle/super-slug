@@ -108,7 +108,8 @@ obj_timmer.x = obj_slug.x+250;
             <kind>1</kind>
             <string>draw_set_font(font_time) //make sure you create a font
 draw_set_color(c_black) //color of the timer font
-draw_text(x+0,y+0,"Time:" + string(global.time)+' ')
+//draw_text(x+0,y+0,"Time:" + string(global.time)+' ')
+draw_text(x+0,y+0,"Score:" + string(global.score))
 </string>
           </argument>
         </arguments>

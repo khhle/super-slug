@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>// 0 = lock; 1 = unlock; 2 = F; 3 = C; 4 = B; 5 = A
-global.lock_6 = 0;
 
 switch (global.lock_6){
    case 0: sprite_index = spr_lock; break;
