@@ -15,42 +15,18 @@
     <sound>sound\snd_graduation</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_gold</sprite>
-    <sprite>sprites\spr_rock_begin</sprite>
-    <sprite>sprites\spr_rock_end</sprite>
-    <sprite>sprites\spr_rock_middle</sprite>
-    <sprite>sprites\spr_platform</sprite>
-    <sprite>sprites\sprite17</sprite>
-    <sprite>sprites\rock</sprite>
-    <sprite>sprites\sprite19</sprite>
-    <sprite>sprites\sprite20</sprite>
-    <sprite>sprites\spr_run</sprite>
-    <sprite>sprites\spr_jump</sprite>
-    <sprite>sprites\spr_falling</sprite>
-    <sprite>sprites\spr_duck</sprite>
-    <sprite>sprites\spr_lock</sprite>
-    <sprite>sprites\spr_dying_hit</sprite>
-    <sprite>sprites\spr_dying_fall</sprite>
-    <sprite>sprites\spr_front</sprite>
-    <sprite>sprites\spr_score_panel</sprite>
-    <sprite>sprites\spr_vet_bar</sprite>
-    <sprite>sprites\spr_hor_bar</sprite>
-    <sprite>sprites\spr_A</sprite>
-    <sprite>sprites\spr_B</sprite>
-    <sprite>sprites\spr_C</sprite>
-    <sprite>sprites\spr_F</sprite>
-    <sprite>sprites\spr_clear_bar</sprite>
-    <sprite>sprites\spr_unlock</sprite>
-    <sprite>sprites\spr_title</sprite>
-    <sprite>sprites\spr_super_time</sprite>
-    <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_heart</sprite>
-    <sprite>sprites\spr_box</sprite>
-    <sprite>sprites\spr_box_left</sprite>
-    <sprite>sprites\spr_box_right</sprite>
-    <sprite>sprites\spr_spikes</sprite>
-    <sprite>sprites\spr_wind</sprite>
-    <sprite>sprites\sprite50</sprite>
+    <sprites name="text">
+      <sprite>sprites\spr_mainGate</sprite>
+      <sprite>sprites\spr_oak</sprite>
+      <sprite>sprites\spr_c8s</sprite>
+      <sprite>sprites\spr_port</sprite>
+      <sprite>sprites\spr_kre</sprite>
+      <sprite>sprites\spr_sci</sprite>
+      <sprite>sprites\spr_niten</sprite>
+      <sprite>sprites\spr_mer</sprite>
+      <sprite>sprites\spr_cow</sprite>
+      <sprite>sprites\spr_book</sprite>
+    </sprites>
     <sprites name="Attractions">
       <sprite>sprites\spr_west_entrance</sprite>
       <sprite>sprites\spr_oakes</sprite>
@@ -64,15 +40,58 @@
       <sprite>sprites\spr_redwood</sprite>
       <sprite>sprites\spr_hahn</sprite>
     </sprites>
-    <sprite>sprites\sprite45</sprite>
-    <sprite>sprites\sprite46</sprite>
-    <sprite>sprites\sprite47</sprite>
-    <sprite>sprites\sprite48</sprite>
-    <sprite>sprites\sprite49</sprite>
-    <sprite>sprites\spr_map_button</sprite>
-    <sprite>sprites\spr_lamp</sprite>
-    <sprite>sprites\spr_mask_slug</sprite>
-    <sprite>sprites\spr_graduate</sprite>
+    <sprites name="platform">
+      <sprite>sprites\spr_box</sprite>
+      <sprite>sprites\spr_box_left</sprite>
+      <sprite>sprites\spr_box_right</sprite>
+      <sprite>sprites\spr_spikes</sprite>
+      <sprite>sprites\sprite45</sprite>
+      <sprite>sprites\sprite48</sprite>
+      <sprite>sprites\rock</sprite>
+      <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\sprite49</sprite>
+      <sprite>sprites\spr_platform</sprite>
+      <sprite>sprites\spr_vet_bar</sprite>
+      <sprite>sprites\spr_hor_bar</sprite>
+      <sprite>sprites\spr_clear_bar</sprite>
+      <sprite>sprites\sprite17</sprite>
+      <sprite>sprites\sprite46</sprite>
+      <sprite>sprites\sprite47</sprite>
+      <sprite>sprites\spr_lamp</sprite>
+      <sprite>sprites\sprite50</sprite>
+    </sprites>
+    <sprites name="slug">
+      <sprite>sprites\spr_dying_hit</sprite>
+      <sprite>sprites\spr_dying_fall</sprite>
+      <sprite>sprites\spr_front</sprite>
+      <sprite>sprites\spr_duck</sprite>
+      <sprite>sprites\spr_falling</sprite>
+      <sprite>sprites\spr_run</sprite>
+      <sprite>sprites\spr_jump</sprite>
+    </sprites>
+    <sprites name="button">
+      <sprite>sprites\spr_map_button</sprite>
+      <sprite>sprites\spr_graduate</sprite>
+      <sprite>sprites\sprite56</sprite>
+      <sprite>sprites\sprite57</sprite>
+      <sprite>sprites\sprite20</sprite>
+      <sprite>sprites\sprite19</sprite>
+      <sprite>sprites\spr_lock</sprite>
+      <sprite>sprites\spr_A</sprite>
+      <sprite>sprites\spr_B</sprite>
+      <sprite>sprites\spr_C</sprite>
+      <sprite>sprites\spr_F</sprite>
+      <sprite>sprites\spr_unlock</sprite>
+    </sprites>
+    <sprites name="UI">
+      <sprite>sprites\spr_score_panel</sprite>
+      <sprite>sprites\spr_super_time</sprite>
+      <sprite>sprites\spr_heart</sprite>
+      <sprite>sprites\spr_wind</sprite>
+      <sprite>sprites\spr_gold</sprite>
+      <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_mask_slug</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -118,9 +137,7 @@
       <object>objects\obj_redwood</object>
       <object>objects\obj_hahn</object>
     </objects>
-    <object>objects\obj_rock_middle</object>
     <object>objects\obj_slug</object>
-    <object>objects\obj_gold</object>
     <objects name="Private">
       <object>objects\obj_slug_running</object>
       <object>objects\obj_slug_jumping</object>
@@ -134,54 +151,85 @@
       <object>objects\obj_hazard</object>
       <object>objects\obj_slug_duck</object>
     </objects>
-    <object>objects\ground</object>
-    <object>objects\obj_camera</object>
-    <object>objects\obj_flying</object>
-    <object>objects\obj_left</object>
-    <object>objects\obj_right</object>
-    <object>objects\obj_timmer</object>
-    <object>objects\object22</object>
-    <object>objects\obj_hp</object>
-    <object>objects\obj_score_panel</object>
-    <object>objects\obj_A</object>
-    <object>objects\obj_B</object>
-    <object>objects\obj_C</object>
-    <object>objects\obj_F</object>
-    <object>objects\object29</object>
-    <object>objects\object31</object>
-    <object>objects\object30</object>
-    <object>objects\obj_clear_bar</object>
-    <object>objects\obj_collision_detect_2</object>
-    <object>objects\obj_collision_dectect</object>
-    <object>objects\obj_bug_check</object>
-    <object>objects\object51</object>
-    <object>objects\obj_title</object>
-    <object>objects\obj_super_text</object>
-    <object>objects\obj_stone</object>
-    <object>objects\obj_box</object>
-    <object>objects\obj_spike</object>
-    <object>objects\obj_cloud</object>
-    <object>objects\obj_rain</object>
-    <object>objects\obj_cannon</object>
-    <object>objects\obj_bullet</object>
-    <object>objects\obj_map_button</object>
-    <object>objects\obj_mask_slug</object>
-    <object>objects\obj_box_star</object>
-    <object>objects\obj_box_bomb</object>
-    <object>objects\obj_graduation</object>
+    <objects name="platform">
+      <object>objects\obj_box_right</object>
+      <object>objects\obj_box_left</object>
+      <object>objects\obj_box_bomb</object>
+      <object>objects\obj_box_star</object>
+      <object>objects\obj_box</object>
+      <object>objects\obj_stone</object>
+      <object>objects\obj_spike</object>
+      <object>objects\obj_flying</object>
+      <object>objects\ground</object>
+      <object>objects\obj_cannon</object>
+    </objects>
+    <objects name="button">
+      <object>objects\obj_A</object>
+      <object>objects\obj_B</object>
+      <object>objects\obj_C</object>
+      <object>objects\obj_F</object>
+      <object>objects\obj_title</object>
+      <object>objects\obj_right</object>
+      <object>objects\obj_left</object>
+      <object>objects\obj_graduation</object>
+      <object>objects\obj_map_button</object>
+      <object>objects\obj_up</object>
+      <object>objects\obj_down</object>
+    </objects>
+    <objects name="UI">
+      <object>objects\obj_camera</object>
+      <object>objects\obj_timmer</object>
+      <object>objects\obj_hp</object>
+      <object>objects\obj_score_panel</object>
+      <object>objects\obj_super_text</object>
+    </objects>
+    <objects name="helper">
+      <object>objects\obj_bullet</object>
+      <object>objects\obj_rain</object>
+      <object>objects\obj_cloud</object>
+      <object>objects\obj_mask_slug</object>
+      <object>objects\obj_clear_bar</object>
+      <object>objects\obj_collision_detect_2</object>
+      <object>objects\obj_collision_dectect</object>
+      <object>objects\obj_bug_check</object>
+      <object>objects\obj_gold</object>
+    </objects>
+    <objects name="trash">
+      <object>objects\object22</object>
+      <object>objects\object29</object>
+      <object>objects\object31</object>
+      <object>objects\object30</object>
+      <object>objects\object51</object>
+      <object>objects\object72</object>
+      <object>objects\obj_rock_middle</object>
+    </objects>
+    <objects name="text">
+      <object>objects\main</object>
+      <object>objects\oak</object>
+      <object>objects\c8</object>
+      <object>objects\port</object>
+      <object>objects\kre</object>
+      <object>objects\sci</object>
+      <object>objects\niten</object>
+      <object>objects\mer</object>
+      <object>objects\cow</object>
+      <object>objects\book</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_title</room>
-    <room>rooms\room4</room>
     <room>rooms\room_map</room>
-    <room>rooms\room7</room>
-    <room>rooms\room5</room>
     <room>rooms\room1</room>
-    <room>rooms\room6_test</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>
+    <room>rooms\room4</room>
+    <room>rooms\room5</room>
+    <room>rooms\room6</room>
+    <room>rooms\room7</room>
     <room>rooms\room8</room>
     <room>rooms\room9</room>
+    <room>rooms\room8_1</room>
+    <room>rooms\room9_1</room>
     <room>rooms\room_graduation</room>
     <room>rooms\room8old</room>
     <room>rooms\room4old</room>

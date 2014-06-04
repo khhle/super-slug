@@ -457,7 +457,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>room2</room>
+            <room>room6</room>
           </argument>
         </arguments>
       </action>
@@ -568,6 +568,28 @@
           <argument>
             <kind>11</kind>
             <room>room1</room>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="5" enumb="48">
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>room_graduation</room>
           </argument>
         </arguments>
       </action>
