@@ -164,8 +164,11 @@
     <object>objects\obj_bullet</object>
     <object>objects\obj_map_button</object>
     <object>objects\obj_mask_slug</object>
+    <object>objects\obj_box_star</object>
+    <object>objects\obj_box_bomb</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room4</room>
     <room>rooms\room7</room>
     <room>rooms\room5</room>
     <room>rooms\room1</room>
@@ -174,7 +177,6 @@
     <room>rooms\room6_test</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>
-    <room>rooms\room4</room>
     <room>rooms\room8</room>
     <room>rooms\room9</room>
     <room>rooms\room8old</room>

@@ -70,7 +70,6 @@
     <instance objName="ground" x="4160" y="256" name="inst_43DD87E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground" x="4608" y="256" name="inst_DE26A301" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_camera" x="96" y="96" name="inst_31F647F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_timmer" x="160" y="0" name="inst_D4F6D94F" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bug_check" x="0" y="64" name="inst_F29CAE74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_right" x="4864" y="160" name="inst_EB638D0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gold" x="1088" y="224" name="inst_5B352DD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -82,6 +81,7 @@
     <instance objName="obj_gold" x="2016" y="160" name="inst_94B527B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gold" x="2048" y="160" name="inst_E925C540" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_clear_bar" x="-32" y="0" name="inst_1BAD8843" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_timmer" x="160" y="0" name="inst_D4F6D94F" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="&lt;undefined&gt;" x="1344" y="160" name="inst_41BCED85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cannon" x="1056" y="224" name="inst_2EC2424D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="&lt;undefined&gt;" x="864" y="224" name="inst_9C2E4404" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
