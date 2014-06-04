@@ -32,7 +32,7 @@ obj_score_panel.x = room_width - 250;
 obj_score_panel.y = 150;
 
 testscore = global.score; //- global.time;
-var iswin = false;
+global.iswin = false;
 global.slugspeed = 0;
 switch(global.current_room){
     case 1:
@@ -84,10 +84,10 @@ switch(global.current_room){
         else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_8 = 2; global.lock_9 = 0}
         break;
     case 9:
-        if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_9 = 5; iswin = true;}
-        else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_9 = 4; iswin = true;}
-        else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_9 = 3; iswin = true;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_9 = 2; iswin = false;}
+        if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_9 = 5; global.iswin = true;}
+        else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_9 = 4; global.iswin = true;}
+        else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_9 = 3; global.iswin = true;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_9 = 2; global.iswin  = false;}
         break;
 }
 </string>
@@ -160,7 +160,7 @@ switch(global.current_room){
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>iswin</string>
+            <string>global.iswin</string>
           </argument>
           <argument>
             <kind>0</kind>
