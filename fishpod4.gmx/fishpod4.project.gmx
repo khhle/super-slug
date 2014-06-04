@@ -63,7 +63,6 @@
       <sprite>sprites\spr_cowell</sprite>
       <sprite>sprites\spr_redwood</sprite>
       <sprite>sprites\spr_hahn</sprite>
-      <sprite>sprites\sprite52</sprite>
     </sprites>
     <sprite>sprites\sprite45</sprite>
     <sprite>sprites\sprite46</sprite>
@@ -170,18 +169,18 @@
     <object>objects\obj_graduation</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_graduation</room>
     <room>rooms\room_title</room>
+    <room>rooms\room_map</room>
     <room>rooms\room7</room>
     <room>rooms\room5</room>
     <room>rooms\room1</room>
-    <room>rooms\room_map</room>
     <room>rooms\room6_test</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>
     <room>rooms\room4</room>
     <room>rooms\room8</room>
     <room>rooms\room9</room>
+    <room>rooms\room_graduation</room>
     <room>rooms\room8old</room>
     <room>rooms\room4old</room>
     <room>rooms\room7old</room>
