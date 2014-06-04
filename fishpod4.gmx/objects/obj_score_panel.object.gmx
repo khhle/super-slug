@@ -39,49 +39,49 @@ switch(global.current_room){
         if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_1 = 5; global.lock_2 = 1;}
         else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_1 = 4; global.lock_2 = 1;}
         else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_1 = 3; global.lock_2 = 1;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_1 = 2;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_1 = 2; global.lock_2 = 0}
         break;
     case 2:
         if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_2 = 5; global.lock_3 = 1;}
         else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_2 = 4; global.lock_3 = 1;}
         else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_2 = 3; global.lock_3 = 1;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_2 = 2;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_2 = 2; global.lock_3 = 0}
         break;
     case 3:
         if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_3 = 5; global.lock_4 = 1;}
         else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_3 = 4; global.lock_4 = 1;}
         else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_3 = 3; global.lock_4 = 1;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_3 = 2;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_3 = 2; global.lock_4 = 0}
         break;
     case 4:
         if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_4 = 5; global.lock_5 = 1;}
         else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_4 = 4; global.lock_5 = 1;}
         else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_4 = 3; global.lock_5 = 1;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_4 = 2;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_4 = 2; global.lock_5 = 0}
         break;
     case 5:
         if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_5 = 5; global.lock_6 = 1;}
         else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_5 = 4; global.lock_6 = 1;}
         else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_5 = 3; global.lock_6 = 1;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_5 = 2;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_5 = 2; global.lock_6 = 0}
         break;
     case 6:
         if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_6 = 5; global.lock_7 = 1;}
         else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_6 = 4; global.lock_7 = 1;}
         else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_6 = 3; global.lock_7 = 1;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_6 = 2;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_6 = 2; global.lock_7 = 0}
         break;
     case 7:
         if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_7 = 5; global.lock_8 = 1;}
         else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_7 = 4; global.lock_8 = 1;}
         else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_7 = 3; global.lock_8 = 1;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_7 = 2;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_7 = 2; global.lock_8 = 0}
         break;
     case 8:
         if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_8 = 5; global.lock_9 = 1;}
         else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_8 = 4; global.lock_9 = 1;}
         else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_8 = 3; global.lock_9 = 1;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_8 = 2;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_8 = 2; global.lock_9 = 0}
         break;
     case 9:
         if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_9 = 5;}
@@ -114,6 +114,30 @@ switch(global.current_room){
           </argument>
           <argument>
             <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>snd_success</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
             <string>0</string>
           </argument>
         </arguments>
