@@ -13,22 +13,10 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_gold</sprite>
-    <sprite>sprites\spr_lava_begin</sprite>
-    <sprite>sprites\spr_lava_end</sprite>
-    <sprite>sprites\spr_lava_middle</sprite>
-    <sprite>sprites\spr_pansy</sprite>
-    <sprite>sprites\spr_pod_fall_left</sprite>
-    <sprite>sprites\spr_pod_fall_right</sprite>
-    <sprite>sprites\spr_pod_jump_left</sprite>
-    <sprite>sprites\spr_pod_jump_right</sprite>
-    <sprite>sprites\spr_pod_stand_left</sprite>
-    <sprite>sprites\spr_pod_stand_right</sprite>
-    <sprite>sprites\spr_pod_walk_left</sprite>
-    <sprite>sprites\spr_pod_walk_right</sprite>
     <sprite>sprites\spr_rock_begin</sprite>
     <sprite>sprites\spr_rock_end</sprite>
     <sprite>sprites\spr_rock_middle</sprite>
-    <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\spr_platform</sprite>
     <sprite>sprites\sprite17</sprite>
     <sprite>sprites\rock</sprite>
     <sprite>sprites\sprite19</sprite>
@@ -41,9 +29,7 @@
     <sprite>sprites\spr_dying_hit</sprite>
     <sprite>sprites\spr_dying_fall</sprite>
     <sprite>sprites\spr_front</sprite>
-    <sprite>sprites\sprite28</sprite>
-    <sprite>sprites\sprite29</sprite>
-    <sprite>sprites\sprite30</sprite>
+    <sprite>sprites\spr_score_panel</sprite>
     <sprite>sprites\spr_vet_bar</sprite>
     <sprite>sprites\spr_hor_bar</sprite>
     <sprite>sprites\spr_A</sprite>
@@ -53,21 +39,31 @@
     <sprite>sprites\spr_clear_bar</sprite>
     <sprite>sprites\spr_unlock</sprite>
     <sprite>sprites\spr_title</sprite>
-    <sprite>sprites\sprite40</sprite>
-    <sprite>sprites\sprite42</sprite>
-    <sprite>sprites\sprite43</sprite>
+    <sprite>sprites\spr_super_time</sprite>
+    <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_heart</sprite>
-    <sprite>sprites\sprite45</sprite>
-    <sprite>sprites\sprite46</sprite>
-    <sprite>sprites\sprite47</sprite>
+    <sprite>sprites\spr_box</sprite>
+    <sprite>sprites\spr_box_left</sprite>
+    <sprite>sprites\spr_box_right</sprite>
+    <sprite>sprites\spr_spikes</sprite>
+    <sprite>sprites\spr_wind</sprite>
+    <sprite>sprites\sprite50</sprite>
+    <sprites name="Attractions">
+      <sprite>sprites\spr_west_entrance</sprite>
+      <sprite>sprites\spr_college_nine</sprite>
+      <sprite>sprites\spr_oakes</sprite>
+      <sprite>sprites\spr_eight</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
     <background>background\background1</background>
     <background>background\background2</background>
+    <background>background\background3</background>
     <background>background\background2old</background>
     <background>background\backgroundmap</background>
     <background>background\background5</background>
+    <background>background\background4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -77,10 +73,25 @@
     <font>fonts\font_time</font>
   </fonts>
   <objects name="objects">
+    <objects name="Map">
+      <object>objects\obj_lock_1</object>
+      <object>objects\obj_lock_2</object>
+      <object>objects\obj_lock_3</object>
+      <object>objects\obj_lock_4</object>
+      <object>objects\obj_lock_5</object>
+      <object>objects\obj_lock_6</object>
+      <object>objects\obj_lock_7</object>
+      <object>objects\obj_lock_8</object>
+      <object>objects\obj_lock_9</object>
+      <object>objects\obj_slug_front</object>
+      <object>objects\obj_map_controller</object>
+    </objects>
+    <objects name="Attractions">
+      <object>objects\obj_west_entrance</object>
+      <object>objects\obj_oakes</object>
+    </objects>
     <object>objects\obj_rock_middle</object>
     <object>objects\obj_slug</object>
-    <object>objects\obj_pansy</object>
-    <object>objects\obj_lava_middle</object>
     <object>objects\obj_gold</object>
     <objects name="Private">
       <object>objects\obj_slug_running</object>
@@ -93,8 +104,6 @@
       <object>objects\obj_rock_begin</object>
       <object>objects\obj_platform</object>
       <object>objects\obj_hazard</object>
-      <object>objects\obj_lava_begin</object>
-      <object>objects\obj_lava_end</object>
       <object>objects\obj_slug_duck</object>
     </objects>
     <object>objects\ground</object>
@@ -118,23 +127,10 @@
     <object>objects\obj_collision_dectect</object>
     <object>objects\obj_bug_check</object>
     <object>objects\object51</object>
-    <objects name="Map">
-      <object>objects\obj_lock_1</object>
-      <object>objects\obj_lock_2</object>
-      <object>objects\obj_lock_3</object>
-      <object>objects\obj_lock_4</object>
-      <object>objects\obj_lock_5</object>
-      <object>objects\obj_lock_6</object>
-      <object>objects\obj_lock_7</object>
-      <object>objects\obj_lock_8</object>
-      <object>objects\obj_lock_9</object>
-      <object>objects\obj_slug_front</object>
-      <object>objects\obj_map_controller</object>
-    </objects>
     <object>objects\obj_title</object>
     <object>objects\obj_super_text</object>
     <object>objects\obj_stone</object>
-    <object>objects\object53</object>
+    <object>objects\obj_box</object>
     <object>objects\obj_spike</object>
     <object>objects\obj_cloud</object>
     <object>objects\obj_rain</object>
