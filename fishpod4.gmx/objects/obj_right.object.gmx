@@ -142,20 +142,6 @@
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
-        <whoName>obj_timmer</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
-        <codestring></codestring>
         <whoName>obj_map_button</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
@@ -170,7 +156,7 @@
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
-        <whoName>obj_hp</whoName>
+        <whoName>obj_timmer</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
