@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.time = 0 //Insert Time in seconds here.
-alarm[0] = 30 //Set alarm 0 for one second
+            <string>//global.time = 0 //Insert Time in seconds here.
+//alarm[0] = 30 //Set alarm 0 for one second
 obj_timmer.x = obj_slug.x+230;
 </string>
           </argument>

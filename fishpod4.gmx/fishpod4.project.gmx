@@ -10,6 +10,7 @@
     <sound>sound\snd_splash</sound>
     <sound>sound\snd_thunder</sound>
     <sound>sound\snd_walk</sound>
+    <sound>sound\snd_bg1</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_gold</sprite>
@@ -67,6 +68,7 @@
     <sprite>sprites\sprite47</sprite>
     <sprite>sprites\sprite48</sprite>
     <sprite>sprites\sprite49</sprite>
+    <sprite>sprites\spr_map_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -157,6 +159,7 @@
     <object>objects\obj_rain</object>
     <object>objects\obj_cannon</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_map_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_title</room>
