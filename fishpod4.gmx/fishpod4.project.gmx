@@ -50,9 +50,17 @@
     <sprite>sprites\sprite50</sprite>
     <sprites name="Attractions">
       <sprite>sprites\spr_west_entrance</sprite>
-      <sprite>sprites\spr_college_nine</sprite>
       <sprite>sprites\spr_oakes</sprite>
       <sprite>sprites\spr_eight</sprite>
+      <sprite>sprites\spr_porter</sprite>
+      <sprite>sprites\spr_kresge</sprite>
+      <sprite>sprites\spr_engineering</sprite>
+      <sprite>sprites\spr_college_nine</sprite>
+      <sprite>sprites\spr_merrill</sprite>
+      <sprite>sprites\spr_cowell</sprite>
+      <sprite>sprites\spr_redwood</sprite>
+      <sprite>sprites\spr_hahn</sprite>
+      <sprite>sprites\sprite52</sprite>
     </sprites>
     <sprite>sprites\sprite45</sprite>
     <sprite>sprites\sprite46</sprite>
@@ -94,6 +102,14 @@
     <objects name="Attractions">
       <object>objects\obj_west_entrance</object>
       <object>objects\obj_oakes</object>
+      <object>objects\obj_nine</object>
+      <object>objects\obj_eight</object>
+      <object>objects\obj_porter</object>
+      <object>objects\obj_kresge</object>
+      <object>objects\obj_merrill</object>
+      <object>objects\obj_cowell</object>
+      <object>objects\obj_redwood</object>
+      <object>objects\obj_hahn</object>
     </objects>
     <object>objects\obj_rock_middle</object>
     <object>objects\obj_slug</object>
