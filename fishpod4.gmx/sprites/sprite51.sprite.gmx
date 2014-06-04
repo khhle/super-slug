@@ -16,9 +16,9 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>600</width>
-  <height>124</height>
+  <width>5000</width>
+  <height>300</height>
   <frames>
-    <frame index="0">images\spr_oakes_0.png</frame>
+    <frame index="0">images\sprite51_0.png</frame>
   </frames>
 </sprite>
