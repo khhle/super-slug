@@ -169,7 +169,6 @@
   <rooms name="rooms">
     <room>rooms\room_title</room>
     <room>rooms\room_map</room>
-    <room>rooms\room7</room>
     <room>rooms\room5</room>
     <room>rooms\room1</room>
     <room>rooms\room4</room>
