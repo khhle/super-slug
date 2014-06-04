@@ -11,6 +11,8 @@
     <sound>sound\snd_thunder</sound>
     <sound>sound\snd_walk</sound>
     <sound>sound\snd_bg1</sound>
+    <sound>sound\snd_success</sound>
+    <sound>sound\snd_graduation</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_gold</sprite>
@@ -70,6 +72,7 @@
     <sprite>sprites\spr_map_button</sprite>
     <sprite>sprites\spr_lamp</sprite>
     <sprite>sprites\spr_mask_slug</sprite>
+    <sprite>sprites\spr_graduate</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_cave</background>
@@ -165,14 +168,15 @@
     <object>objects\obj_mask_slug</object>
     <object>objects\obj_box_star</object>
     <object>objects\obj_box_bomb</object>
+    <object>objects\obj_graduation</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_title</room>
+    <room>rooms\room4</room>
     <room>rooms\room_map</room>
+    <room>rooms\room7</room>
     <room>rooms\room5</room>
     <room>rooms\room1</room>
-    <room>rooms\room4</room>
-    <room>rooms\room7</room>
     <room>rooms\room6_test</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>
