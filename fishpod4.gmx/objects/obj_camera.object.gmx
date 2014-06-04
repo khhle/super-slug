@@ -94,7 +94,7 @@ obj_camera.x = obj_slug.x+200;
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_map_button</object>
+            <object>obj_text_help</object>
           </argument>
           <argument>
             <kind>0</kind>

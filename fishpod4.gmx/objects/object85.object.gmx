@@ -50,7 +50,7 @@ obj_map_button.y = 35;
           <argument>
             <kind>1</kind>
             <string>if(global.isWin ==0 &amp;&amp; global.isStop == 0)
-obj_map_button.x = obj_slug.x ;
+obj_map_button.x = obj_camera.x - 230;
 obj_map_button.y = 35;
 </string>
           </argument>

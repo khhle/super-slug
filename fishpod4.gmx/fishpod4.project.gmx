@@ -110,6 +110,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_time</font>
+    <font>fonts\font1</font>
   </fonts>
   <objects name="objects">
     <objects name="Map">
@@ -173,6 +174,7 @@
       <object>objects\obj_left</object>
       <object>objects\obj_graduation</object>
       <object>objects\obj_map_button</object>
+      <object>objects\object85</object>
       <object>objects\obj_up</object>
       <object>objects\obj_down</object>
     </objects>
@@ -215,6 +217,7 @@
       <object>objects\cow</object>
       <object>objects\book</object>
     </objects>
+    <object>objects\obj_text_help</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_title</room>
