@@ -32,7 +32,7 @@ obj_score_panel.x = room_width - 250;
 obj_score_panel.y = 150;
 
 testscore = global.score; //- global.time;
-
+var iswin = false;
 global.slugspeed = 0;
 switch(global.current_room){
     case 1:
@@ -84,10 +84,10 @@ switch(global.current_room){
         else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_8 = 2; global.lock_9 = 0}
         break;
     case 9:
-        if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_9 = 5;}
-        else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_9 = 4;}
-        else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_9 = 3;}
-        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_9 = 2;}
+        if(testscore &gt; 70) { instance_create(obj_score_panel.x,obj_score_panel.y,obj_A); global.lock_9 = 5; iswin = true;}
+        else if(testscore &gt; 50){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_B); global.lock_9 = 4; iswin = true;}
+        else if(testscore &gt; 20){ instance_create(obj_score_panel.x,obj_score_panel.y,obj_C); global.lock_9 = 3; iswin = true;}
+        else { instance_create(obj_score_panel.x,obj_score_panel.y,obj_F); global.lock_9 = 2; iswin = false;}
         break;
 }
 </string>
@@ -146,6 +146,34 @@ switch(global.current_room){
     <event eventtype="6" enumb="7">
       <action>
         <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>iswin</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>false</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>224</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -161,6 +189,40 @@ switch(global.current_room){
           <argument>
             <kind>11</kind>
             <room>room_map</room>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>421</id>
+        <kind>3</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>room_graduation</room>
           </argument>
         </arguments>
       </action>
