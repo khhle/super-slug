@@ -314,7 +314,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_splash</sound>
+            <sound>snd_ground</sound>
           </argument>
           <argument>
             <kind>3</kind>

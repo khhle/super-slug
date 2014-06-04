@@ -2,14 +2,14 @@
 <sound>
   <kind>3</kind>
   <extension>.mp3</extension>
-  <origname>C:\Users\khanh\Documents\GitHub\super-slug\fishpod4.gmx\\sound\audio\snd_success.mp3</origname>
+  <origname>8-Bit Power Up Sound Effect.mp3</origname>
   <effects>0</effects>
   <volume>
     <volume>1</volume>
   </volume>
   <pan>0</pan>
   <bitRates>
-    <bitRate>64</bitRate>
+    <bitRate>192</bitRate>
   </bitRates>
   <sampleRates>
     <sampleRate>44100</sampleRate>
@@ -21,7 +21,7 @@
     <bitDepth>16</bitDepth>
   </bitDepths>
   <preload>-1</preload>
-  <data>snd_success.mp3</data>
+  <data>snd_powerUp.mp3</data>
   <compressed>0</compressed>
   <streamed>0</streamed>
   <uncompressOnLoad>0</uncompressOnLoad>

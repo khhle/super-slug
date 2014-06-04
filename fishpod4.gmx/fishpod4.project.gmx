@@ -13,6 +13,8 @@
     <sound>sound\snd_bg1</sound>
     <sound>sound\snd_success</sound>
     <sound>sound\snd_graduation</sound>
+    <sound>sound\snd_ground</sound>
+    <sound>sound\snd_powerUp</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="text">
@@ -111,6 +113,7 @@
   <fonts name="fonts">
     <font>fonts\font_time</font>
     <font>fonts\font1</font>
+    <font>fonts\font2</font>
   </fonts>
   <objects name="objects">
     <objects name="Map">

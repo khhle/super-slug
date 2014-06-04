@@ -107,7 +107,7 @@ alarm[0] = 30 //Do it all over again.
 //show_message('Time Up!')
 //game_end()
 if(global.isWin ==0 &amp;&amp; global.isStop == 0)
-obj_timmer.x = obj_slug.x+230;
+obj_timmer.x = obj_slug.x+290;
 </string>
           </argument>
         </arguments>
@@ -182,10 +182,10 @@ obj_timmer.x = obj_slug.x+230;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(font_time) //make sure you create a font
+            <string>draw_set_font(font2) //make sure you create a font
 draw_set_color(c_black) //color of the timer font
 //draw_text(x+0,y+0,"Time:" + string(global.time)+' ')
-draw_text(x+0,y+0,"Score:" + string(global.score))
+draw_text(x+0,y+0,"Score:" + string(global.score)+ "#Death: "+ string(global.DeathNum))
 </string>
           </argument>
         </arguments>

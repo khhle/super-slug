@@ -77,7 +77,7 @@ obj_text_help.y = 0;
             <string>draw_set_font(font1) //make sure you create a font
 draw_set_color(c_black) //color of the timer font
 //draw_text(x+0,y+0,"Time:" + string(global.time)+' ')
-draw_text(x+0,y+0,"Press ESC to get back#" + "Death: " +string(global.DeathNum))
+draw_text(x+0,y+0,"Press ESC to get back" )
 </string>
           </argument>
         </arguments>
